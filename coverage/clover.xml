@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628417429544" clover="3.2.0">
-  <project timestamp="1628417429544" name="All files">
-    <metrics statements="67" coveredstatements="64" conditionals="20" coveredconditionals="16" methods="9" coveredmethods="9" elements="96" coveredelements="89" complexity="0" loc="67" ncloc="67" packages="3" files="9" classes="9"/>
+<coverage generated="1628577568815" clover="3.2.0">
+  <project timestamp="1628577568815" name="All files">
+    <metrics statements="77" coveredstatements="74" conditionals="22" coveredconditionals="18" methods="10" coveredmethods="10" elements="109" coveredelements="102" complexity="0" loc="77" ncloc="77" packages="4" files="10" classes="10"/>
     <package name="Algorithm">
-      <metrics statements="45" coveredstatements="42" conditionals="16" coveredconditionals="13" methods="6" coveredmethods="6"/>
-      <file name="add.js" path="D:\HTML\js-Algorithms\Algorithm\add.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="1" type="stmt"/>
-      </file>
+      <metrics statements="44" coveredstatements="41" conditionals="16" coveredconditionals="13" methods="5" coveredmethods="5"/>
       <file name="containsDuplicate.js" path="D:\HTML\js-Algorithms\Algorithm\containsDuplicate.js">
         <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="7" count="1" type="stmt"/>
@@ -68,8 +64,15 @@
         <line num="16" count="0" type="stmt"/>
       </file>
     </package>
+    <package name="Algorithm.example">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="add.js" path="D:\HTML\js-Algorithms\Algorithm\example\add.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="Algorithm.sort">
-      <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="30" coveredstatements="30" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
       <file name="bubble.js" path="D:\HTML\js-Algorithms\Algorithm\sort\bubble.js">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="7" count="1" type="stmt"/>
@@ -80,6 +83,19 @@
         <line num="12" count="10" type="stmt"/>
         <line num="13" count="10" type="stmt"/>
         <line num="14" count="10" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="insert.js" path="D:\HTML\js-Algorithms\Algorithm\sort\insert.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
       <file name="select.js" path="D:\HTML\js-Algorithms\Algorithm\sort\select.js">
